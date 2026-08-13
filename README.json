@@ -1,0 +1,297 @@
+{
+  "items": [
+    {
+      "description": "All prompts are open — click, copy, use directly.",
+      "items": [],
+      "title": "Prompts"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Coding & Development"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "DevOps & SRE"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Data Engineering"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "AI & ML"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Product & Strategy"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Project Management"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Healthcare & Clinical"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Industrial & Automotive"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Legal & Compliance"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Knowledge & Documentation"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Writing & Academic"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Learning & Education"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Research & Analysis"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Productivity & Tasks"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Safety & Compliance"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Meta & Prompt Engineering"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Image, Video & Audio Generation"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Creative & Role-play"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Game Development"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Translation"
+    },
+    {
+      "description": "These prompts used slash-command or symbolic-encoding styles common in 2023. Still functional, but the conventions have moved on.",
+      "items": [],
+      "title": "Legacy (2023 era — kept for reference)"
+    },
+    {
+      "description": "The shift from \"writing prompts\" to \"engineering prompts\": compile, test, optimize, and control LM programs programmatically.\nStart here: dair-ai/Prompt-Engineering-Guide — the canonical entry point. Covers techniques, adversarial prompting, RAG, agents, papers, and notebooks.",
+      "items": [],
+      "title": "Frameworks"
+    },
+    {
+      "description": "Write LM systems as code, not strings. These frameworks treat prompts as compiled, optimizable programs.",
+      "items": [],
+      "title": "Prompt Programming"
+    },
+    {
+      "description": "Instead of hand-tuning prompts, these frameworks optimize them automatically using LLM feedback or evolutionary methods.",
+      "items": [],
+      "title": "Automatic Prompt Optimization"
+    },
+    {
+      "description": "Make prompt quality measurable. Regression tests, benchmarks, and CI/CD for LLM systems.",
+      "items": [],
+      "title": "Eval & Testing"
+    },
+    {
+      "description": "Probe LLM systems for vulnerabilities before attackers do.",
+      "items": [],
+      "title": "Red Team & Security"
+    },
+    {
+      "description": "Beyond basic evals — trace, debug, and monitor LLM systems in production.",
+      "items": [],
+      "title": "Eval & Observability"
+    },
+    {
+      "description": "For teams that want to build RAG pipelines and agent workflows without writing everything from scratch.",
+      "items": [],
+      "title": "Low-Code & Workflow Platforms"
+    },
+    {
+      "description": "The best way to learn how production AI products are built is to read their system prompts. These repos collect leaked / extracted system prompts from real tools.\nWhat to look for: how roles are defined, how tool use is constrained, how planning is structured, how refusals are framed, how sub-agents are orchestrated.",
+      "items": [],
+      "title": "System Prompt Leaks"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Prompt Engineering"
+    },
+    {
+      "description": "Extraction attack:\nDefense:",
+      "items": [],
+      "title": "Prompt Attack & Defense"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Prompts"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Agent Ecosystem"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Frameworks"
+    },
+    {
+      "description": "An open standard (Anthropic, Dec 2025) for packaging expertise into portable directories. Each skill is a folder with a entry point — YAML frontmatter (, ) + freeform Markdown instructions + optional . Agents load skills on demand; no context bloat.\nSkills vs MCP: MCP gives agents abilities (tool calls, data access). Skills teach agents how to use those abilities well (conventions, workflows, knowledge). Complementary, not competing.\nAdopted by: OpenAI (Codex CLI), GitHub Copilot, Google Gemini CLI, Cursor, VS Code, Figma, Atlassian, Vercel, Stripe, Cloudflare, Supabase, and more.\nRelated — AGENTS.md (OpenAI, Aug 2025): A Markdown file in a repo root with agent-specific operational guidance (build commands, testing, security notes). Adopted by 20,000+ GitHub repos. Both MCP, Agent Skills, and AGENTS.md are now stewarded under Agentic AI Foundation (AAIF) — a Linux Foundation project co-founded by Anthropic, OpenAI, and Block, backed by Google, Microsoft, and AWS.",
+      "items": [],
+      "title": "Agent Skills"
+    },
+    {
+      "description": "The infrastructure layer that wraps an LLM: tool access, lifecycle management, permissions, memory, observability, human-in-the-loop approvals. The harness is the product — two teams using the same model can ship vastly different agents based on harness design alone.\nKey insight — Constraint Collapse: Vercel found that removing 80% of available tools improved agent performance. Unconstrained agents waste tokens exploring dead ends; tight constraints collapse the solution space.\nHarness components: system prompt · tools/MCPs · context · sub-agents · lifecycle hooks · permission model · reversibility (snapshots) · human-in-the-loop gates · state persistence",
+      "items": [],
+      "title": "Harness Engineering"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Official Guides"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Papers"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Foundations"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Automatic Optimization"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Reasoning Techniques"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Surveys"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "RAG & Knowledge"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Agent Reliability"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Multi-Agent Coordination"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Self-Improving Agents"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Agent Safety"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Medical & Health AI"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Context & Memory"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Tool Use"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Agent Evaluation"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Instruction Following"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Multimodal Prompting"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Embodied AI & World Models"
+    },
+    {
+      "description": "Curated reading list: The 2025 AI Engineering Reading List — Latent Space",
+      "items": [],
+      "title": "Voice & Realtime Agents"
+    },
+    {
+      "description": "PRs welcome — share a prompt, fix a link, or add a framework.",
+      "items": [],
+      "title": "Tools & Libraries"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:06:01.519Z",
+    "original_repository": "ai-boost/awesome-prompts",
+    "original_repository_sha": "0eac652ff0390bae0cd8b8d1c02e7ebd9b616147",
+    "enhanced_repository": "enhansome/enhansome-prompts",
+    "enhanced_repository_description": null,
+    "title": "Awesome prompts with stars"
+  }
+}
