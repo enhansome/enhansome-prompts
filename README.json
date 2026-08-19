@@ -27,10 +27,10 @@
             "archived": false,
             "id": 1288325627,
             "language": "TypeScript",
-            "last_commit": "2026-08-19T12:01:33Z",
+            "last_commit": "2026-08-19T13:52:54Z",
             "owner": "NanoNets",
             "repo": "Graft",
-            "stars": 3724
+            "stars": 3735
           }
         },
         {
@@ -53,7 +53,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:46:27.093Z",
+    "last_updated": "2026-08-19T14:05:01.140Z",
     "original_repository": "ai-boost/awesome-prompts",
     "original_repository_id": 745546184,
     "original_repository_sha": "f9ca43b0d50657df6e9e5df6d4adf919fa79cf73",
