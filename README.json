@@ -15,7 +15,7 @@
             "last_commit": "2026-02-27T05:04:18Z",
             "owner": "jasontang-ai",
             "repo": "Context-Engineering",
-            "stars": 9219
+            "stars": 9220
           }
         },
         {
@@ -27,10 +27,10 @@
             "archived": false,
             "id": 1288325627,
             "language": "TypeScript",
-            "last_commit": "2026-08-20T12:05:15Z",
+            "last_commit": "2026-08-21T13:44:27Z",
             "owner": "NanoNets",
             "repo": "Graft",
-            "stars": 3822
+            "stars": 3902
           }
         },
         {
@@ -53,10 +53,10 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T14:07:03.370Z",
+    "last_updated": "2026-08-21T14:05:19.482Z",
     "original_repository": "ai-boost/awesome-prompts",
     "original_repository_id": 745546184,
-    "original_repository_sha": "fbf2bbd9a590c0f5cab27083d997062ad6e6def2",
+    "original_repository_sha": "2c1f185f2d2d7cf127ada3cce31da9a50e742ff9",
     "enhanced_repository": "enhansome/enhansome-prompts",
     "enhanced_repository_description": null,
     "title": "Awesome prompts with stars"
